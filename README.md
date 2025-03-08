@@ -57,7 +57,16 @@ COPY . ./my_super_dir
 **VOLUME** — создаёт точку монтирования для работы с постоянным хранилищем.
 
 > [!NOTE]
-> Дополнительные материалы:\
-Про Docker Registry: https://www.geeksforgeeks.org/what-is-docker-registry/ \
+> Про Docker Registry: https://www.geeksforgeeks.org/what-is-docker-registry/ \
 Инструкции в Dockerfile: https://docs.docker.com/develop/develop-images/instructions/ \
 Про Dockerfile: https://habr.com/ru/companies/ruvds/articles/439980/
+
+
+<details>
+<summary>Дополнительные материалы</summary>
+<ul>
+<li>Andrea Ligios <a href="https://www.baeldung.com/ops/docker-compose">Introduction to Docker Compose</a> — в статье рассказано про основные концепции Docker Compose.</li>
+<li>Avimanyu Bandyopadhyay <a href="https://linuxhandbook.com/docker-compose-up-start-down-stop/">Docker Compose Up vs Start and Down vs Stop: Differences Explained</a> — здесь вы найдёте описание команд docker compose с детальными примерами.</li>
+<li>А на <a href="https://stackoverflow.com/questions/46428420/docker-compose-up-down-stop-start-difference">этой странице</a> различие между командами <strong>docker compose</strong> описано лаконично — такую шпаргалку удобно держать под рукой.</li>
+</ul>
+</details>
